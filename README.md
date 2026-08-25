@@ -1,6 +1,18 @@
 # 顺顺壁纸（dsh-wallpaper）
 
+[English](./README.en.md) | 中文
+
 为 DeepSeek Harness Web UI 提供 **GIF 壁纸** 与 **B站音乐播放器** 的一体化插件。
+
+## 📸 预览
+
+**壁纸动效（GIF 原片，非录屏）**
+
+![平滑版壁纸动效](https://github.com/Ddamage/dsh-shunshun-wallpaper/releases/download/v1.0.1/rotating_horse_smooth.gif)
+
+| 壁纸全屏效果 | 顺顺壁纸设置页 | 侧栏迷你播放器 |
+|---|---|---|
+| ![壁纸全屏效果](https://github.com/Ddamage/dsh-shunshun-wallpaper/releases/download/v1.0.1/wallpaper.png) | ![顺顺壁纸设置页](https://github.com/Ddamage/dsh-shunshun-wallpaper/releases/download/v1.0.1/settings.png) | ![侧栏迷你播放器](https://github.com/Ddamage/dsh-shunshun-wallpaper/releases/download/v1.0.1/mini-player.png) |
 
 ## ✨ 功能
 
@@ -26,9 +38,27 @@
 
 ## 📦 安装
 
+### 方式一：npm 一键安装（推荐 🚀）
+
+已发布到 npm：https://www.npmjs.com/package/dsh-shunshun-wallpaper
+
+```bash
+dsh plugin --profile web add dsh-shunshun-wallpaper
+```
+
+或（原生 npm 方式）：
+
+```bash
+npm install dsh-shunshun-wallpaper
+```
+
+安装后重启 DSH（`dsh web`）即可使用。
+
+### 方式二：GitHub 源码安装
+
 1. **克隆仓库**到本地任意位置：
    ```bash
-   git clone https://github.com/<你的用户名>/dsh-wallpaper.git
+   git clone https://github.com/Ddamage/dsh-shunshun-wallpaper.git
    ```
 2. **把插件目录放入 DSH profile**（`DSH_HOME` 默认 `~/.dsh`）：
    ```bash
