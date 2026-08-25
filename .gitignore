@@ -1,0 +1,4 @@
+node_modules/
+*.log
+smoke.mjs
+.DS_Store
