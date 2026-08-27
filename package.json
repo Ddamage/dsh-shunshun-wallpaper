@@ -1,7 +1,7 @@
 {
   "name": "dsh-shunshun-wallpaper",
   "description": "顺顺壁纸：GIF 壁纸（主题融合、突出度控制）+ B站音乐播放器（B站链接下载添加、删除、音量、进度条、单曲/列表/随机循环、侧栏迷你播放器、设置与播放列表持久化）",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "main": "lib/index.js",
   "repository": {
